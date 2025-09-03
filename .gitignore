@@ -1,0 +1,53 @@
+# ==============================
+# Java / Spring Boot (Backend)
+# ==============================
+/*/target/
+/*/.classpath
+/*/.project
+/*/.settings/
+/*/*.iml
+/*/.idea/
+**/application.properties
+
+# Logs
+/*/*.log
+/*/logs/
+/*/*.tmp
+
+# OS files
+/*/.DS_Store
+
+
+
+# ==============================
+# Node.js / React (Frontend)
+# ==============================
+/Frontend/node_modules/
+/Frontend/build/
+/Frontend/.env.local
+/Frontend/.env.development.local
+/Frontend/.env.test.local
+/Frontend/.env.production.local
+/Frontend/.DS_Store
+/Frontend/npm-debug.log*
+/Frontend/yarn-debug.log*
+/Frontend/yarn-error.log*
+/Frontend/.eslintcache
+
+# IDE
+/Frontend/.idea/
+/Frontend/.vscode/
+/Frontend/*.iml
+
+# ==============================
+# Root-level ignores (optional)
+# ==============================
+*.log
+*.tmp
+.env
+*.iml
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.class
